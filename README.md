@@ -25,6 +25,8 @@ kwargs["parm_name"]
 kwargs["script_multiparm_index"]
 ```
 
+## Sops
+
 ### houdini_renderview_bg.py
 Easily find and set the background image for the Mantra RenderView tab in SOPs.
 
@@ -32,3 +34,8 @@ Frustratingly, an image sequence isn't initially accepted and just the current f
 
 ### houdini_pintabs.py
 Quickly find and pin several node parameter tabs to specific tab panes
+
+## Lops
+
+### RenderVarEdit
+Disable RenderVar objects in the SceneGraph and also within OrderedVars on the RenderProduct. Accepts the usual Houdini Lops primitive matching patterns patterns.
