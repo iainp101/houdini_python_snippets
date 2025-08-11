@@ -39,3 +39,6 @@ Quickly find and pin several node parameter tabs to specific tab panes
 
 ### RenderVarEdit
 Disable RenderVar objects in the SceneGraph and also within OrderedVars on the RenderProduct. Accepts the usual Houdini Lops primitive matching patterns patterns.
+
+### PerLightObject_RenderVar
+Searches prims at the defined source(s) for Arnold light group names and creates a RenderVar per light group.
