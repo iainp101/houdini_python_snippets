@@ -16,6 +16,9 @@ file_select = hou.ui.selectFile(
                 height=0)
                 
 print(file_select)
+if "$F" in file_select:
+    file_select = file_select.replace("$F", "\\$F")
+
 if file_select != "":
     hou.hscript("imgdispopt -f %s" % str(file_select))
     
